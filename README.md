@@ -12,5 +12,3 @@ python src/train.py --features 2
 ```
 
 The committed dataset is `data/sampregdata.csv`. Running the script writes `models/current.joblib` and `results/metrics.json` locally. For the earlier version, run `git checkout v1-one-feature`, then `python src/train.py --features 1`; return with `git switch main` (or the branch printed by `git branch --show-current`). Only load model files from a trusted source. Git tracks code and the dataset; generated model binaries are reproducible and ignored.
-
-To give a classmate access, push this repository to a private GitHub repository and invite their verified GitHub username under **Settings → Collaborators**. After they accept, they can clone the repository and run the commands above. No classmate username or repository destination was supplied, so that invitation has not been sent.
